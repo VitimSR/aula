@@ -1,0 +1,13 @@
+
+name: Vitim
+on: [push]
+jobs:
+  print-vitim:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run 
+        run: echo Vitim!
+      - run: npg i -g @ionic/cli
+      - name: Run
+      
